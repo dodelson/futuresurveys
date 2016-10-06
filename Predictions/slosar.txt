@@ -1,0 +1,51 @@
+I fit to k=0.5h/Mpc/growth factor assuming linear theory, but otherwise LSST point sources with PZ precision ramped to 10^{-5} (in rms ln(1+z)).
+I know this is could be badly off, but say we could go to k=1/Mpc with all the extra bias parameters which are assumed to be completelly determined from k=0.5-1, so that they are know and we can pretend that we can use to 0.5 with just linear bias...  I used halo-matched abundances for bias.
+
+For the basic model I get:
+
+bX0.05                 0.657666     0.00144761197308
+bX0.137451              0.66774    0.000718801680414
+bX0.232186             0.697206    0.000494886571108
+bX0.334812             0.718214    0.000375587983737
+bX0.445984             0.749601    0.000319695770512
+bX0.566416               0.7938    0.000299766851187
+bX0.696879             0.849777    0.000317611495287
+bX0.838207             0.919437    0.000336144747673
+bX0.991306              1.01835     0.00037627609652
+bX1.15716               1.15491    0.000435550649544
+bX1.33682               1.29729    0.000495832655307
+bX1.53145               1.52884    0.000595144876378
+bX1.74228               1.84591    0.000736080285392
+bX1.97068               2.13443     0.00085951167185
+bX2.2181                2.64013     0.00108016054595
+bX2.48612               3.29968     0.00138396351854
+bX2.77647               3.82785     0.00163832573734
+bX3.09101               4.79767     0.00223411824044
+bX3.43173               5.99412     0.00351665070201
+bX3.80084               6.87209     0.00499824316121
+bX4.20069               8.50834      0.0125676251802
+bX4.63384                9.5993      0.0415036126737
+Rho_m                    0.1414    8.59927655544e-05
+omega_b                 0.02214    3.99737842073e-05
+Theta_s                  0.5968    0.000101570441086
+summnu                     0.06     0.00385873960681
+log10amplitude             -8.65486    0.000277745840787
+Enn                      0.9608    0.000352964087094
+ToverS                      0.1     0.00617976021948
+tau                       0.092    0.000547052396551
+
+Relaxing other parameters one by one I get:
+
+Nlnu                      3.046      0.0124134507647
+
+Alpha                       0.0    0.000526174204137 (running)
+
+Omega_k            -8.43769e-15     0.00027921006391
+
+wa0                        -1.0     0.00546832265265
+
+wa0                        -1.0      0.0138720620925
+wa1                         0.0      0.0385156457652
+
+Dgamma                      0.0     0.00307735151763 (hack growth factor by Omega_m^Dgamma) (interestingly, this breaks mnu error to just 0.02!!!!)
+
